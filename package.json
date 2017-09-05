@@ -1,0 +1,36 @@
+{
+  "name": "travel-site-handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alive-jekyll/travel-site-handson.git"
+  },
+  "author": "du-oh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alive-jekyll/travel-site-handson/issues"
+  },
+  "homepage": "https://github.com/alive-jekyll/travel-site-handson#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.3",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11",
+    "postcss-import": "^10.0.0",
+    "postcss-mixins": "^6.1.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-pixels-to-rem": "^0.8.0",
+    "postcss-simple-vars": "^4.1.0"
+  }
+}

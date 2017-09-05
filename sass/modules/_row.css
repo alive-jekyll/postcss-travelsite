@@ -1,0 +1,23 @@
+.row {
+	
+	@mixin atMedium {
+		&--gutter__right{
+			padding-right: calc( 1/16 * 100%);
+		}
+
+		&--gutter__left{
+			padding-left: calc( 1/16 * 100%);
+		}
+
+		&__4 {
+			float: left;
+			width: calc(1/3 * 100%);
+		}
+
+		&__8 {
+			float: left;
+			width: calc(2/3 * 100%);
+		}
+	}
+
+}
