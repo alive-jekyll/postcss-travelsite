@@ -1,0 +1,21 @@
+.feature-item {
+	margin-bottom: rem(105);
+	
+	&__icon {
+		float: left;
+	}
+	
+	&__text {
+		padding-left: 94px;
+		
+		& h3 {
+			font-size: rem(26);
+			font-weight: 300;
+		}
+		
+		& p {
+			font-weight: 100;
+			line-height: 1.8;
+		}
+	}
+}

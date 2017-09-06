@@ -683,12 +683,23 @@ img {
 
 		.row__4 {
 			float: left;
-			width: calc(1/3 * 100%);
+			width: calc((1/3 * 100%) - 1%);
 		}
 
 		.row__8 {
 			float: left;
-			width: calc(2/3 * 100%);
+			width: calc((2/3 * 100%) - 1%);
+		}
+		
+			
+		.row__half {
+			float: left;
+			margin-right: 2%;
+			width: calc((1/2 * 100%) - 1%);
+		}
+		
+		.row__half:last-child{
+			margin-right: 0;
 		}
 	}
 
@@ -706,5 +717,42 @@ img {
 
 .global-container p a {
 			font-weight: 700;
+		}
+
+.section-title {
+	font-size: 3.75rem;
+	font-weight: 300;
+	padding-top: 4.5rem;
+	text-align: center;
+}
+
+.section-title strong {
+		font-weight: 500;
+	}
+
+.section-title__icon {
+		margin-right: 0.5rem;
+	}
+
+.feature-item {
+	margin-bottom: 6.5625rem;
+}
+
+.feature-item__icon {
+		float: left;
+	}
+
+.feature-item__text {
+		padding-left: 5.875rem;
+	}
+
+.feature-item__text h3 {
+			font-size: 1.625rem;
+			font-weight: 300;
+		}
+
+.feature-item__text p {
+			font-weight: 100;
+			line-height: 1.8;
 		}
 /*# sourceMappingURL=styles.css.map */
